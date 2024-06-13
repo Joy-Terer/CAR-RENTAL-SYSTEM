@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-//main/parent class
 public class rental extends carrent {
     public static void main(String[] args) {
         carrent car = new carrent();
@@ -22,7 +21,7 @@ public class rental extends carrent {
     }
     
 }
-// this is where you input information about the car
+
 class Car {
     private String carName;
     private int carRegistration;
@@ -55,7 +54,7 @@ class Car {
             return carPrice;
         }
 }
-//this is where you input information about the customer
+
  class Customer extends Car{
 
         private String customerName;
@@ -96,7 +95,7 @@ class Car {
             }
 
 }
-//this is the function for renting a car
+
 class carrent extends Customer {
 
     public void rentcar() {
